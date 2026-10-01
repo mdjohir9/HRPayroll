@@ -1,0 +1,17 @@
+cat > .gitignore <<'EOF'
+.vs/
+bin/
+obj/
+Debug/
+Release/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+TestResults/
+packages/
+
+appsettings.Development.json
+EOF

@@ -1,0 +1,6 @@
+@CW_HRMS_API_Clean_HostAddress = http://localhost:5267
+
+GET {{CW_HRMS_API_Clean_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
